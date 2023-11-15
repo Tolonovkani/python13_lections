@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Marvel group
+            pictures
+        </a>
+        
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">mail.ru</a></li>
+            <li><a href="#">Compony</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </header>
+    <section>
+        
+        <img src="https://c4.wallpaperflare.com/wallpaper/790/968/871/spider-man-superhero-spider-man-into-the-spider-verse-miles-morales-wallpaper-preview.jpg" alt="">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Scrolling Effects</h2>
+        <p>Кинематографи́ческая вселе́нная Marvel (англ. Marvel Cinematic Universe; сокр. КВМ (англ. MCU)) — американская медиафраншиза, вымышленная общая вселенная и серия фильмов о супергероях, основанная на комиксах издательства Marvel Comics и разработанная кинокомпанией Marvel Studios. Во франшизу также входят телесериалы, короткометражные фильмы, веб-сериалы и книжная продукция. Как и оригинальная вселенная Marvel Comics, киновселенная была создана путём соединения в общую сюжетную линию нескольких фильмов и сериалов с общими актёрами, персонажами и событиями.
+
+            На данный момент вышло тридцать два фильма. Marvel Studios группирует свои фильмы в «Фазы». Первые три фазы известны под названием «Сага Бесконечности», а следующие три фазы — «Сага Мультивселенной». Первый фильм КВМ, «Железный человек» (2008), начал Первую фазу, кульминацией которой стал фильм-кроссовер 2012 года «Мстители». Вторая фаза началась с «Железного человека 3» (2013) и завершилась «Человеком-муравьём» (2015). Третья фаза началась с фильма «Первый мститель: Противостояние» (2016) и завершилась фильмом «Человек-паук: Вдали от дома» (2019). Четвёртая фаза началась с «Чёрной вдовы» (2021) и завершилась «Чёрной пантерой: Ваканда навеки» (2022). «Человек-муравей и Оса: Квантомания» (2023) начал Пятую фазу, которая закончится «Блэйдом» (2025). Шестая фаза начнётся с фильма «Фантастическая четвёрка» (2025), в неё также войдут фильмы «Мстители: Династия Канга» (2026) и «Мстители: Секретные войны» (2027).
+            
+            Подразделение Marvel Television расширило события киновселенной в телесериалах, начиная с «Агентов „Щ.И.Т.“» (2013—2020) на канале ABC; затем телесериалы были созданы для стриминговых сервисов Netflix и Hulu, а также для канала кабельного телевидения Freeform; веб-сериал «Агенты «Щ.И.Т.»: Йо-Йо» также расширил киновселенную. С 2018 года Marvel Studios начала продюсировать собственные телесериалы для Disney+, отличные от Marvel Television. Первым подобным проектом стал мини-сериал «Ванда/Вижн» (2021), начавший Четвёртую фазу КВМ. В киновселенную также входят комиксы тай-ины издательства Marvel Comics, серия короткометражных фильмов «Marvel One-Shots» и вирусная маркетинговая кампания для фильмов, включающая программы «WHIH Newsfront» и «The Daily Bugle».
+            
+            «Кинематографическая вселенная Marvel» занимает первое место в списке самых прибыльных серий фильмов с общими сборами более $29 млрд, а картины «Мстители: Финал», «Мстители: Война бесконечности», «Человек-паук: Нет пути домой» и «Мстители» занимают соответственно второе, шестое, седьмое и десятое места в списке самых кассовых фильмов за всю историю кинематографа. 
+            </p>
+            <script>
+                let stars = document.getElementById('stars')
+                let moon = document.getElementById('moon')
+                let behined = document.getElementById('behind')
+                let front = document.getElementById('front')
+                let text = document.getElementById('text')
+                let btn = document.getElementById('btn')
+                let header = document.getElementById('header')
+        
+                window.addEventListener('scroll', function(){
+                    let value = window.scrollY;
+                    stars.style.left = value * 0.25 + 'px'
+                    moon.style.top = value * 1.05 + 'px'
+                    behind.style.top = value * 5 + 'px'
+                    front.style.top = value * 7 + 'px'
+                    text.style.marginRight = value * 4 + 'px'
+                    text.style.marginTop = value * 1.5 + 'px'
+                    btn.style.marginTop = value * 1.5 + 'px'
+                    header.style.top = value * 0.5 + 'px'
+                })
+            </script>
+            <div class="feedback-form">
+                <h2>Оставте свой отзыв</h2>
+                <form>
+                    <label for="name">ваша имя:</label>
+                    <input type="text" id="name" name="name" required></input>
+                    <label for="feedback">отзыв</label>
+                    <textarea id="feedback" name="feedback" rows="1"required></textarea>
+                    <button type="submit" class="button">отправить отзыв</button>
+                </form>>
+            </div>>
+            <img src="https://kloop.kg/wp-content/uploads/2019/11/chyk-eshhikke.jpg" alt="">
+        </div>>
+        
+</body>
+</html>

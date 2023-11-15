@@ -1,0 +1,23 @@
+[
+    {
+        "id": 3,
+        "title": "Iphone 14 Pro Max",
+        "description": "New phone for ponts!",
+        "qty": 5,
+        "price": 1000
+    },
+    {
+        "id": 4,
+        "title": "Samsung S22 Ultra",
+        "description": "The best Android Phone!",
+        "qty": 8,
+        "price": 900
+    },
+    {
+        "id": 5,
+        "title": "Samsung Z Flip 20",
+        "description": "The best samsung flip flop phone!",
+        "qty": 3,
+        "price": 1000
+    }
+]
