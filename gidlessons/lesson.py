@@ -19,3 +19,10 @@
 
 # 6. git push -> команда для отпраки ваших изменений в локальным репо в удаленный репо
         #  git push origin main
+
+# --------------------------
+# 1*) git init
+            # 2) git add.
+            # 3) git commit -m ''
+# 4*) git remote add origin <url>
+            # 5) pit push origin main
